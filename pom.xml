@@ -564,7 +564,13 @@
                             <image>adoptopenjdk:11-jre-hotspot</image>
                         </from>
                         <to>
+                            <image>fain1995/helloWorld:latest</image>
+                            <auth>
+                                <username>${​DOCKER_REGISTRY_USER} ​ </username>
+                                <password>${DOCKER_REGISTRY_PWD}</password>
+                            </auth>                                
                             <image>helloworld:latest</image>
+
                         </to>
                         <container>
                             <entrypoint>
